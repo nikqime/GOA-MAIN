@@ -1,0 +1,35 @@
+body {
+    margin: 0;       
+}
+
+nav{
+    background-color: #3067af;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main_2{
+    
+    color: white;
+    text-align: center;
+    padding: 7px 16px;
+      
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 55px;
+    color: rgb(12, 12, 43);
+}
+nav button{
+background-color: blue;   
+font-size: 15px;
+border-radius: 35px;
+margin: 25px;
+color: aquamarine;
+}
+
+
