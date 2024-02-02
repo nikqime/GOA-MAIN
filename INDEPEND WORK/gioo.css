@@ -1,4 +1,21 @@
-body {
+body{
+ margin: 0;
+
+}
+
+nav{
+    background-color: #582c2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main{
+    background-color: #582c2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}body {
     margin: 0;       
 }
 
@@ -31,5 +48,3 @@ border-radius: 35px;
 margin: 25px;
 color: aquamarine;
 }
-
-
