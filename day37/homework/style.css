@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    font-family:"Inter";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+
+}
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+main{
+    border-radius: 15px;
+    background-color: #141414;
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+.container {
+    background-color: #1F1F1F;
+    width: 50%;
+    border: 3px solid rgb(26, 26, 29); 
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#img_1{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+h1{
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+h2{
+    font-size:16px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+h3{
+    font-size: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+}
+.p-style{
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 7px;
+    background-color: #333333;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s all ease-out;
+
+}
+.p-style:hover,.inst-style:hover{
+    background-color: #004225;
+    color:  black;
+
+}
+.inst-style{
+
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 7px;
+    background-color: #333333;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s all ease-out;
+}
+
+
+
+
+
+   
+
+
+
+
