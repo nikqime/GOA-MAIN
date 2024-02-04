@@ -32,10 +32,10 @@ img{
     display: flex;
 }
 .main_2{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px;
 }
 .p-style{
     margin-top: 10px;
@@ -57,16 +57,17 @@ padding: 15px;
     justify-content: center;
 }
 .dollar{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .main_2 h4{
-font-size: 35px;
-color: rgb(52, 119, 7);
+    font-size: 35px;
+    color: rgb(52, 119, 7);
 }
 .main_2 h5{
     text-decoration: line-through;
+    font-size: 19px;
 
 }
 .button{
