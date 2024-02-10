@@ -1,13 +1,13 @@
 
 
 body{
-background-color: bisque;
-width: 80%;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-box-sizing: border-box;
+    background-color: bisque;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 
 
 }
@@ -17,8 +17,6 @@ box-sizing: border-box;
     border: 3px #ffffff;
     border-radius: 8px;
     margin-left: 25%;
-    margin-top: 50px;
-    margin-bottom: 50px;
     overflow: auto;
 
 }
@@ -35,13 +33,11 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 10px;
 }
 .p-style{
-    margin-top: 10px;
     width: 80%;
     text-align: center;
-    margin-left: 10%;
     font-size: 1rem;
     background-color: #085a23;
     border-radius: 5px;
@@ -52,9 +48,12 @@ img{
     cursor: pointer;
     color: white;
     transition: 0.3s all ease-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 10px;
+}
+.p-style p{
+height: 100%;
+
+
 }
 .dollar{
     display: flex;
@@ -71,10 +70,13 @@ img{
 
 }
 .button{
-   display: flex; 
-   align-items: center;
-   justify-content: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 
+}
+.amerika{
+    margin-top: 10%;
 }
 
 
