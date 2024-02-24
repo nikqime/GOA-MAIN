@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    background-color: #f0f0f0; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    font-size: 16px;
+    transition: transform 0.9s ease-in-out;
+}
+.container:hover {
+    transform: scale(0);
+    transform: rotate(45deg);
+}
+h1{
+    font-size: 16px;
+}
