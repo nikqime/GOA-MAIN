@@ -4,18 +4,20 @@ body{
     
 }
 header{
-    width: 100%;
+    margin-top: 35px;
+    width: 1600px;
     height: 100px;
     padding: 0;
-    background-color: rgb(252, 255, 240);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(133, 122, 233);
     font-size: xx-large;
     border-radius: 100px;
     color: rgb(39, 33, 71);
-   
-    
+    box-shadow: 0px 0px 50px rgb(0, 38, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    font-family: "Gill Sans Extrabold", sans-serif;
 }
 .part_1,.part_2, .part_3{
     display: flex;
@@ -32,7 +34,7 @@ header{
     height: 300px;
     
 }
-.pc_1 p, .pc_2 p , .pc_2 img {
+.pc_1 p, .pc_2 p , .pc_2 img , .pc_3 p , .pc_3 img {
     width: 50%;
 }
 .pc_1 p , .pc_2 p , .part_3 p{
@@ -64,6 +66,8 @@ header{
     height: 97px;
     border-radius: 15px;
     cursor: pointer;
+    background-color: #ff0000;
+   
 }
 .part_3 p{
     width: 50%;
@@ -96,14 +100,19 @@ footer{
     cursor: pointer;
 }
 .thanks{
-
+    cursor: pointer;
     font-size: 25px;
 }
 main{
     margin-bottom: 30px;
 
 
+
+
+    
 }
+
+
 
 
 

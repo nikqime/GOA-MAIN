@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    width: 100px;
+}
+.iconn{
+    width: 80px;
+}
+.iconnn{
+    width: 65px;
+  
+}
+.header2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+}
+
+.big{
+    width: 297px;
+}
+.Leader,.Mini-Leader,.member{
+    width: 300px;
+    background-color: beige;
+    border: 5px solid rgb(75, 35, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30%;
+}
+.ah,.ha,.members{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.arrow{
+    width: 300px;
+    height: 400px;
+}
+.Leader_photo, .Mini-Leader_photo,.member_photo{
+    border-radius: 33%;
+    width: 300px;
+    cursor: pointer;
+}
+.Leader{
+    border: 10px solid black;
+
+}
+.member{
+    border: 1px solid green;
+}
+
+
+
+
+.text{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(11, 97, 11);
+}
+.pirveli_xazi{
+    font-size: 48px;
+    color: rgb(11, 97, 11);
+}
+.meore_xazi{
+    font-size:26px;
+}
+.mesame_xazi{
+    font-size:23px;
+}
+.meotxe_xazi{
+    font-size:27px;
+}

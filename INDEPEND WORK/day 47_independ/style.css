@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+.all{
+    background-image: s;
+}
+.for_header_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.images_for_header{
+    width: 50px;
+    cursor: pointer;
+}
+.images_for_headerr{
+    width: 90px;
+    height: 55px;
+    cursor:pointer;
+}
+header{
+    display: flex;
+    align-items: center;  
+    gap: 140px;
+}
+.second_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images_main{
+    width: 400px;
+    height: 300px;
+}
+video{
+    width: 100%; 
+    max-width: 2400px; 
+    height: 400px; 
+}
+.images_for_main{
+    display:flex;
+    justify-content: space-between;
+   
+}
+.images_main{
+    width: 310px;
+    border-radius: 10%;
+}

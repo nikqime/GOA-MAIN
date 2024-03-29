@@ -1,0 +1,25 @@
+.main{
+    width: 800px;
+    height: 650px;
+    border: 1px solid black;
+    background-color: rgb(219, 185, 33);
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(5,auto);
+    gap: 20px;
+    
+}
+.one, .two , .three , .four ,.five{
+    background-color: rgb(255, 252, 72);
+    border: 1px solid rgb(0, 0, 0);
+    width: 120px;
+   
+}
+.one{
+    grid-column: 1/6;
+    grid-row: ;
+}
+.four{
+    grid-column: 1/6;
+}
+

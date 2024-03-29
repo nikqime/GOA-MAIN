@@ -6,24 +6,24 @@ body{
     align-items: center;
 }
 
-.container{
+.container ,.image{
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(0, 0, 0);
-    background-color: #f0f0f0; 
-    border: 2px solid #ccc; 
+    
     border-radius: 8px; 
     padding: 10px; 
     box-sizing: border-box;
-    width: 300px;
+    width: 287px;
     height: 200px;
     font-size: 16px;
     transition: transform 0.9s ease-in-out;
 }
 .container:hover {
-    transform: scale(0);
+    
     transform: rotate(45deg);
+    
 }
 h1{
     font-size: 16px;
@@ -32,19 +32,18 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
     background-color: #f0f0f0; 
     border: 2px solid #ccc; 
     border-radius: 8px; 
     padding: 10px; 
     box-sizing: border-box;
-    width: 450px;
-    height: 300px;
+    width: 1150px;
+    height: 500px;
     font-size: 16px;
     transition: transform 0.9s ease-in-out;
     
 }
-.main:hover{
-    transform: rotate(45deg);
-    transform: scale(1);
+.image{
+    border: 1px solid;
 }
