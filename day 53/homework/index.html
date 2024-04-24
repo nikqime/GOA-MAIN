@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1</title>
+</head>
+<body>
+  <p id="paragraph1">First paragraph</p>
+  <p id="paragraph2">Second paragraph</p>
+  <p id="paragraph3">Third paragraph</p>
+  <button onclick="rearrangeParagraphs()">Click me</button>
+
+  <script>
+    function rearrangeParagraphs() {
+      var p1 = document.getElementById("paragraph1").innerText;
+      var p2 = document.getElementById("paragraph2").innerText;
+      var p3 = document.getElementById("paragraph3").innerText;
+
+      document.getElementById("paragraph1").innerText = p2;
+      document.getElementById("paragraph2").innerText = p3;
+      document.getElementById("paragraph3").innerText = p1;
+    }
+  </script>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2</title>
+</head>
+<body>
+  <p id="number">0</p>
+  <button onclick="decrement()">-1</button>
+  <button onclick="reset()">Reset</button>
+  <button onclick="increment()">+1</button>
+
+  <script>
+    var number = 0;
+
+    function decrement() {
+      number--;
+      document.getElementById("number").innerText = number;
+    }
+
+    function reset() {
+      number = 0;
+      document.getElementById("number").innerText = number;
+    }
+
+    function increment() {
+      number++;
+      document.getElementById("number").innerText = number;
+    }
+  </script>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 3</title>
+</head>
+<body>
+  <p class="paragraph">Paragraph 1</p>
+  <p class="paragraph">Paragraph 2</p>
+  <p class="paragraph">Paragraph 3</p>
+  <button onclick="changeColor('green')">Green</button>
+  <button onclick="changeColor('red')">Red</button>
+  <button onclick="changeColor('yellow')">Yellow</button>
+
+  <script>
+    function changeColor(color) {
+      var paragraphs = document.getElementsByClassName("paragraph");
+      for (var i = 0; i < paragraphs.length; i++) {
+        paragraphs[i].style.color = color;
+      }
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+var carInfo = {
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2022,
+  color: "Blue",
+  engine: "V6",
+  getInfo: function() {
+    return "This is a " + this.color + " " + this.year + " " + this.brand + " " + this.model + " with a " + this.engine + " engine.";
+  }
+};
+
+console.log(carInfo.getInfo());
+Task 5:
+javascript
+Copy code
+var favoriteMovies = [
+  {
+    name: "Inception",
+    genre: "Sci-Fi",
+    releaseYear: 2010
+  },
+  {
+    name: "The Shawshank Redemption",
+    genre: "Drama",
+    releaseYear: 1994
+  },
+  {
+    name: "The Dark Knight",
+    genre: "Action",
+    releaseYear: 2008
+  }
+];
+
+console.log(favoriteMovies);
+Task 6:
+javascript
+Copy code
+var calculator = {
+  addition: function(a, b) {
+    return a + b;
+  },
+  subtraction: function(a, b) {
+    return a - b;
+  },
+  multiplication: function(a, b) {
+    return a * b;
+  },
+  division: function(a, b) {
+    return a / b;
+  },
+  equality: function(a, b) {
+    return a === b;
+  }
+};
+
+// Example usage:
+console.log(calculator.addition(5, 3)); // Output: 8
+console.log(calculator.subtraction(10, 5)); // Output: 5
+console.log(calculator.multiplication(4, 6)); // Output: 24
+console.log(calculator.division(20, 4)); // Output: 5
+console.log(calculator.equality(5, 5)); // Output: true
