@@ -13,3 +13,6 @@ elif avg_score >5 and avg_score <9:
     print("შენი ქულაა: " + str(avg_score) + " YOU ARE MID")
 else:
     print("შენი ქულაა: " + str(avg_score) + " there is something wrong with you")
+    
+
+
