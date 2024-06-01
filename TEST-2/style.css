@@ -1,10 +1,23 @@
-body {
-    font-family: Georgia, serif;
+body{
+    scroll-behavior:initial;
 }
-main{
-
-        font-family: Georgia, serif;
-    
+.goa_picture{
+    width: 6rem;
+    height: 5.2rem;
+    border-radius:50%;
+    cursor: pointer;
+}
+.squad_site_name_h1{
+    color: rgb(103, 116, 108);
+}
+.p_leader,.Leader_name{
+    font-size: 8px;
+}
+.p_leader{
+    margin-bottom: 5px;
+}
+.Leader_name{
+    margin-top: 17px;
 }
 header{
     display: flex;
@@ -33,49 +46,46 @@ header{
 }
 main{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
+    margin-right:200px ;
 }
 
 .big{
-    width: 297px;
+    width: 100px;
 }
 
 .big_a{
     width: 247px;
 }
 
-.Leader,.Mini-Leader,.member{
-    width: 300px;
+.Leader{
+    width: 100px;
+    height: 50px;
     background-color: beige;
-    border: 5px solid rgb(75, 35, 183);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+.ah{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    border-radius: 30%;
-}
-.ah,.ha,.members{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 100px;
+    gap: 10px;
 }
 .arrow{
-    width: 300px;
-    height: 400px;
+    width: 100px;
+    height: 133px;
 }
-.Leader_photo, .Mini-Leader_photo,.member_photo{
-    border-radius: 33%;
-    width: 300px;
+.Leader_photo{
+    border-radius: 50%;
+    width: 100px;
     cursor: pointer;
 }
-.Leader{
-    border: 10px solid black;
 
-}
 .member{
     border: 1px solid green;
 }
@@ -89,21 +99,28 @@ main{
     color: rgb(11, 97, 11);
 }
 .pirveli_xazi{
-    font-size: 48px;
+    font-size: 28px;
     color: rgb(11, 97, 11);
 }
 .meore_xazi{
-    font-size:23px;
+    font-size:15px;
 }
 .mesame_xazi{
-    font-size:23px;
+    font-size:15px;
 }
 .meotxe_xazi{
-    font-size:27px;
+    font-size:17px;
 }
 .main_xazi{
     height: 5px;
     background-color: black;
+    font-size: 19px;
+}
+.glavni_p{
+    font-size:19px;
+}
+.odin{
+    font-size: 2px;
 }
 .p_Mini-leader{
     margin-top: 5px;
@@ -127,8 +144,9 @@ main{
     font-size: 18px;
 }
 #main{
-    font-size: 48px;
+    font-size: 24px;
     color: rgb(0, 0, 0); 
+    margin-left: 19%;
 }
 .chad{
     width: 100px;
@@ -138,8 +156,8 @@ main{
     
 }
 .me{
+    border-radius:50%;
     width: 80px;
-    border-radius: 50%;
 }
 .for_images{
    display: flex;
@@ -147,4 +165,31 @@ main{
    align-items: center;
    gap: 40px;
    cursor: pointer;
+}
+.second_main{
+    height: 350px;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.damakavshirebeli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pc{
+    width: 100px;
+}
+.helicopter{
+    width: 100px;
+    height: 250px;
+}
+.kiss{
+    width: 20px;
+}
+.cuncul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
